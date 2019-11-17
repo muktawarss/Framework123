@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class LoginPage {
 	WebDriver driver;
-
+//This is new code added by sada
 	public LoginPage(WebDriver driver) {
 
 		this.driver = driver;
