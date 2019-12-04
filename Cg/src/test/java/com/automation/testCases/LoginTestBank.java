@@ -14,7 +14,7 @@ import com.automation.utility.ExcelDataProvider;
 public class LoginTestBank extends BaseClass {
 	ExcelDataProvider excel1 = new ExcelDataProvider();
 
-	@Test(priority = 1)
+	@Test
 	public void loginApp() {
 
 		logger = report.createTest("Login to guruBank");
