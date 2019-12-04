@@ -10,6 +10,7 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.Parameters;
 
 import com.automation.utility.BrowserFactory;
 import com.automation.utility.ConfigDataprovider;
@@ -19,6 +20,7 @@ import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.MediaEntityBuilder;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
+
 
 public class BaseClass {
 
@@ -41,9 +43,12 @@ public class BaseClass {
 		report.attachReporter(extent);
 	}
 
+/*	@Parameters("browser")*/
 	@BeforeClass
 	public void setUp() {
-		driver = BrowserFactory.startBrowser(driver, config.getBrowser(), config.getUrl());
+	driver = BrowserFactory.startBrowser(driver, config.getBrowser(), config.getUrl());
+		
+	//	driver = BrowserFactory.startBrowser(driver, browser, config.getUrl());
 		Reporter.log("Browser and application is up and running", true);
 	}
 
