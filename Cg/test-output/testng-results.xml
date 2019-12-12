@@ -14,12 +14,12 @@
       <![CDATA[Report  is done->Test is completed]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="22393" started-at="2019-11-17T04:49:01Z" finished-at="2019-11-17T04:49:24Z">
+  <suite name="Suite" duration-ms="40494" started-at="2019-12-03T16:36:38Z" finished-at="2019-12-03T16:37:18Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="22393" started-at="2019-11-17T04:49:01Z" finished-at="2019-11-17T04:49:24Z">
+    <test name="Test3" duration-ms="40494" started-at="2019-12-03T16:36:38Z" finished-at="2019-12-03T16:37:18Z">
       <class name="com.automation.testCases.LoginTestBank">
-        <test-method status="PASS" signature="setupSuite()[pri:0, instance:com.automation.testCases.LoginTestBank@16ec5519]" name="setupSuite" is-config="true" duration-ms="547" started-at="2019-11-17T04:49:01Z" finished-at="2019-11-17T04:49:01Z">
+        <test-method status="PASS" signature="setupSuite()[pri:0, instance:com.automation.testCases.LoginTestBank@16ec5519]" name="setupSuite" is-config="true" duration-ms="307" started-at="2019-12-03T16:36:37Z" finished-at="2019-12-03T16:36:38Z">
           <reporter-output>
             <line>
               <![CDATA[setting up report is ready]]>
@@ -29,22 +29,22 @@
             </line>
           </reporter-output>
         </test-method> <!-- setupSuite -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.automation.testCases.LoginTestBank@16ec5519]" name="setUp" is-config="true" duration-ms="16435" started-at="2019-11-17T04:49:01Z" finished-at="2019-11-17T04:49:18Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.automation.testCases.LoginTestBank@16ec5519]" name="setUp" is-config="true" duration-ms="25184" started-at="2019-12-03T16:36:38Z" finished-at="2019-12-03T16:37:03Z">
           <reporter-output>
             <line>
               <![CDATA[Browser and application is up and running]]>
             </line>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginApp()[pri:1, instance:com.automation.testCases.LoginTestBank@16ec5519]" name="loginApp" duration-ms="3257" started-at="2019-11-17T04:49:18Z" finished-at="2019-11-17T04:49:21Z">
+        <test-method status="PASS" signature="loginApp()[pri:0, instance:com.automation.testCases.LoginTestBank@16ec5519]" name="loginApp" duration-ms="13495" started-at="2019-12-03T16:37:03Z" finished-at="2019-12-03T16:37:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginApp -->
-        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.automation.testCases.LoginTestBank@16ec5519]" name="tearDownMethod" is-config="true" duration-ms="1403" started-at="2019-11-17T04:49:21Z" finished-at="2019-11-17T04:49:23Z">
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.automation.testCases.LoginTestBank@16ec5519]" name="tearDownMethod" is-config="true" duration-ms="1061" started-at="2019-12-03T16:37:16Z" finished-at="2019-12-03T16:37:17Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=loginApp status=SUCCESS method=LoginTestBank.loginApp()[pri:1, instance:com.automation.testCases.LoginTestBank@16ec5519] output={null}]]]>
+                <![CDATA[[TestResult name=loginApp status=SUCCESS method=LoginTestBank.loginApp()[pri:0, instance:com.automation.testCases.LoginTestBank@16ec5519] output={null}]]]>
               </value>
             </param>
           </params>
@@ -54,11 +54,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- tearDownMethod -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.automation.testCases.LoginTestBank@16ec5519]" name="tearDown" is-config="true" duration-ms="1252" started-at="2019-11-17T04:49:23Z" finished-at="2019-11-17T04:49:24Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.automation.testCases.LoginTestBank@16ec5519]" name="tearDown" is-config="true" duration-ms="715" started-at="2019-12-03T16:37:17Z" finished-at="2019-12-03T16:37:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.automation.testCases.LoginTestBank -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test3 -->
+  </suite> <!-- Suite -->
 </testng-results>
